@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            //ATIVIDADE 1 - SALA
+
             Console.WriteLine("ATIVIDADE1");
 
             float valor1 = 1000;
@@ -20,7 +21,7 @@
             
             Console.WriteLine(" O valor atual dos investimentos de Marquesito é R$" + dia4.ToString("0.00"));
 
-            //ATIVIDADE 2
+            //ATIVIDADE 2 - SALA
 
             Console.WriteLine("ATIVIDADE 2");
 
@@ -35,7 +36,7 @@
             Console.WriteLine("Novo salário: ", novo_salario);
 
 
-            //ATIVIDADE 3 
+            //ATIVIDADE 3 - SALA
 
             Console.WriteLine("ATIVIDADE 3");
 
@@ -49,6 +50,27 @@
             soma = ant_d + suce_t;
 
             Console.WriteLine("Soma: ", soma);
+
+            //EXERCÍCIO 1 - LISTA 
+
+            float valor_metros, cm, mm;
+
+            Console.WriteLine("Insira um valor em metros: ");
+            valor_metros = int.Parse(Console.ReadLine());
+
+            cm = valor_metros * 100;
+            mm = valor_metros * 1000;
+
+            Console.WriteLine("Essa medida em cm é \n CM - {0} \n MM - {1}", cm, mm);
+
+            // EXERCÍCIO 2 - LISTA 
+
+            float graus_f;
+            int graus_c;
+
+            Console.WriteLine("Insira o valor em graus fahrenheit: ");
+            graus_f = float.Parse(Console.ReadLine());
+
         }
     }
 }
