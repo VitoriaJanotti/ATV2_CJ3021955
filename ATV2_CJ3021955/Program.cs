@@ -228,7 +228,7 @@
 
  Console.WriteLine(" Seu peso ideal é \nPeso ideal para homens com essa altura: {0} \nPeso ideal para mulheres com essa altura: {1}", p_h, p_m);
 
- //EXERCÍCIO 13 - LISTA 
+ //EXERCÍCIO 13 - LISTA (feito no word)
 
         }
     }
